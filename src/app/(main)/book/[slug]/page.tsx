@@ -103,7 +103,7 @@ export default async function DetailBookPage({ params }: Props) {
                                     {(bookDetail.price ? new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(bookDetail.price) : 'Rp. 0')}
                                 </span>
                             </div>
-
+ 
                             <a
                                 href={`https://wa.me/6285156172215?text=Halo, saya tertarik dengan buku "${bookDetail.title}"`}
                                 target="_blank"
